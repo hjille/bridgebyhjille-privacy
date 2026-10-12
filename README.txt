@@ -1,7 +1,27 @@
 Bridge by Hjille GitHub Pages
 
-Ladda upp index.html, privacy.html, support.html, style.css, background.png och app-icon.png till roten av hjille/bridgebyhjille-privacy (main).
+Static support and privacy site for Bridge by Hjille.
 
-OBS: Integritetstexten är oförändrad från befintlig privacy.html (8 augusti 2026). Juridisk innehållsgranskning för Game Center, CloudKit och diagnostik återstår.
+Public URLs:
+- https://hjille.github.io/bridgebyhjille-privacy/
+- https://hjille.github.io/bridgebyhjille-privacy/privacy.html
+- https://hjille.github.io/bridgebyhjille-privacy/privacy-en.html
+- https://hjille.github.io/bridgebyhjille-privacy/support.html
 
-Startsidan blir en landningssida med länkar till integritet och support. Direktlänken till privacy.html fungerar fortsatt.
+Files:
+- index.html: landing/support entry page.
+- support.html: support and troubleshooting information.
+- privacy.html: Swedish privacy policy.
+- privacy-en.html: English privacy policy with equivalent disclosures.
+- style.css: shared static styling.
+- background.png and app-icon.png: site assets.
+
+Publication:
+Upload or commit these files to the root of hjille/bridgebyhjille-privacy on main.
+The existing privacy.html URL is preserved for the iOS app.
+
+Privacy content notes:
+- The policy distinguishes local storage, Game Center, CloudKit and optional diagnostics.
+- It does not claim that no personal data is processed.
+- It does not invent CloudKit retention periods or automatic deletion of uploaded diagnostics.
+- It uses support@hjille.se for privacy questions and deletion requests.
